@@ -1,5 +1,5 @@
 import os
-inp = input("Enter The Expression")
+inp = input("Enter The Expression > ")
 try:
   print(eval(inp))
   os.system("pause")
