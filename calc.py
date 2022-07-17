@@ -1,7 +1,8 @@
 import os
 inp = input("Enter The Expression")
 try:
-  eval(inp)
+  print(eval(inp))
+  os.system("pause")
 except:
   print("Please Enter a Valid Expression")
   os.system("pause")
